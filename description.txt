@@ -1,0 +1,37 @@
+secure-auth-api/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   ├── authController.js
+│   └── userController.js
+│
+├── middleware/
+│   ├── authMiddleware.js
+│   ├── roleMiddleware.js
+│   ├── validationMiddleware.js
+│   └── errorMiddleware.js
+│
+├── models/
+│   ├── User.js
+│   └── RefreshToken.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   └── userRoutes.js
+│
+├── utils/
+│   ├── jwt.js
+│   ├── otp.js
+│   ├── email.js
+│   └── tokens.js
+│
+├── validators/
+│   ├── authValidator.js
+│   └── userValidator.js
+│
+├── .env
+├── .gitignore
+├── package.json
+└── server.js
